@@ -24,10 +24,14 @@ const StyledWrapper = styled.div`
 
 const Grid = styled.div`
     display: grid;
-    grid-template-columns: repeat(12, 8.333rem);
+    grid-template-columns: repeat(auto-fill, 1fr);
     grid-gap: 0.8rem;
     height: 100vh;
     background: grey;
+
+    *, *::before, *::after {
+        box-sizing: border-box;
+      }
 `;
 
 const Layout = ({children}) => (
@@ -35,9 +39,9 @@ const Layout = ({children}) => (
         <Fragment>
             <GlobalStyle />
             <StyledWrapper>
-                <Grid>
-                    {children}
-                </Grid>
+                    <Grid>
+                        {children}
+                    </Grid>
             </StyledWrapper>
         </Fragment>
     </ThemeProvider>

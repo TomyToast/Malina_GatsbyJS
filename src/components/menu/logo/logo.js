@@ -2,20 +2,18 @@ import styled from 'styled-components';
 import logo from '../../../images/logo.png';
 
 const Logo = styled.div`
-    grid-column: 1 / 3;
-    grid-row: 1 / 2;
+    min-height: 64px;
+    min-width: 200px;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    width: 100%;
-    padding: 0.125rem;
-    background: ${(theme) => theme.theme.colors.lightdark};
+    background: transparent;
     background-image: url(${logo});
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: 150px 70px cover;
     border: 1px solid red;
+
+    top: 0;
+    left: 550;
+    z-index: 2;
 `;
 
 export default Logo;

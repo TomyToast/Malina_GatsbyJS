@@ -1,10 +1,10 @@
 import React from 'react'
 import Layout from '../layouts/layout';
-import Logo from '../components/menu/logo/logo';
+import Menu from '../layouts/menuBar';
 
 const IndexPage = () => (
   <Layout>
-        <Logo />
+        <Menu />
   </Layout>
 )
 
