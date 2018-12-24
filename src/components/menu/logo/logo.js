@@ -10,10 +10,6 @@ const Logo = styled.div`
     background-repeat: no-repeat;
     background-size: 150px 70px cover;
     border: 1px solid red;
-
-    top: 0;
-    left: 550;
-    z-index: 2;
 `;
 
 export default Logo;

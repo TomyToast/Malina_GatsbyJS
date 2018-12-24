@@ -16,22 +16,21 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 const StyledWrapper = styled.div`
-    max-width: 100rem;
-    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     border: 1px solid red;
 `;
+const Conteiner = styled.div`
+    width: 1600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-const Grid = styled.div`
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 1fr);
-    grid-gap: 0.8rem;
-    height: 100vh;
-    background: grey;
-
-    *, *::before, *::after {
-        box-sizing: border-box;
-      }
+    border: 1px solid red;
 `;
 
 const Layout = ({children}) => (
@@ -39,9 +38,9 @@ const Layout = ({children}) => (
         <Fragment>
             <GlobalStyle />
             <StyledWrapper>
-                    <Grid>
-                        {children}
-                    </Grid>
+                <Conteiner>
+                    {children}
+                </Conteiner>
             </StyledWrapper>
         </Fragment>
     </ThemeProvider>

@@ -8,7 +8,7 @@ align-item: center;
 width: 100%;
 min-heigh: 80px;
 list-style-type: none;
-margin-right: 20px;
+margin-right: 5px;
 `;
 
 export default UL;

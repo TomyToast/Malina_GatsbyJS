@@ -5,4 +5,3 @@ To be continued...
 ## Technologies
 - ReactJs
 - GatsbyJs
-- CSS Grid

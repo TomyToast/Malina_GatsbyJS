@@ -5,13 +5,12 @@ import UL from '../components/menu/UL/UL';
 import LI from '../components/menu/UL/LI/LI';
 
 const MenuBar = styled.div`
-    grid-column: 1 / 10;
-    grid-row: 1 / 3;
-
     display: flex;
+    justify-content: center;
+    align-items: center;
 
     background: white;
-    width: 100%;
+    width: 68.75rem;
     height: 4rem;
     border: 1px solid red;
 
