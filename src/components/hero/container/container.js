@@ -5,7 +5,7 @@ const Container = styled.div`
     height: 52.5rem;
 
     display: flex;
-    flex-direction: column;
+    flex-direction: ${({column}) => column ? 'column' : 'row'};
     justify-content: center;
     align-items: center;
 

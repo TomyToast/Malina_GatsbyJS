@@ -8,7 +8,7 @@ import ArrowBtn from '../components/hero/container/arrowBtn/arrowBtn';
 
 const Hero = () => (
     <HeroDiv>
-        <Container>
+        <Container column>
             <Title> Restauracja Malina </Title>
             <Info>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vehicula mauris in libero blandit varius. Aenean tempor condimentum dapibus. Praesent in eros facilisis, egestas urna vitae, cursus eros. Morbi sodales leo vel massa dapibus, ut sollicitudin augue dictum.
