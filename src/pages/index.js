@@ -5,6 +5,7 @@ import Hero from '../layouts/hero';
 import Recipes from '../layouts/recipes';
 import Paralax from '../layouts/paralax';
 import Gallery from '../layouts/gallery';
+import Newsletter from '../layouts/newsletter';
 
 const IndexPage = () => (
   <Layout>
@@ -13,6 +14,7 @@ const IndexPage = () => (
         <Recipes />
         <Paralax />
         <Gallery />
+        <Newsletter />
   </Layout>
 )
 
