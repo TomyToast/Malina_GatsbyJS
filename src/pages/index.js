@@ -6,6 +6,8 @@ import Recipes from '../layouts/recipes';
 import Paralax from '../layouts/paralax';
 import Gallery from '../layouts/gallery';
 import Newsletter from '../layouts/newsletter';
+import Maps from '../layouts/map';
+import Footer from '../layouts/footer';
 
 const IndexPage = () => (
   <Layout>
@@ -15,6 +17,8 @@ const IndexPage = () => (
         <Paralax />
         <Gallery />
         <Newsletter />
+        <Maps />
+        <Footer />
   </Layout>
 )
 

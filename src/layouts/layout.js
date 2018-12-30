@@ -20,8 +20,6 @@ const StyledWrapper = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    border: 1px solid red;
 `;
 const Conteiner = styled.div`
     width: 1600px;
@@ -29,8 +27,6 @@ const Conteiner = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    border: 1px solid red;
 `;
 
 const Layout = ({children}) => (

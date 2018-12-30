@@ -48,7 +48,7 @@ const ParalaxDescribe = styled.div`
 
 const Paralax = () => (
     <ParalaxWrapper>
-        <Container column>
+        <Container column min>
             <ParalaxTitle>Lorem ipsum dolot</ParalaxTitle>
             <ParalaxDescribe> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel faucibus ligula. Pellentesque semper libero sit amet erat aliquet ultricies. </ParalaxDescribe>
         </Container>

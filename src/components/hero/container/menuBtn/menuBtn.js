@@ -10,7 +10,6 @@ height: 80px;
 
 background: ${({ theme }) => theme.colors.whiteLight};;
 color: ${({ theme }) => theme.colors.white};
-border: 2px solid ${({ theme }) => theme.colors.white};
 border-radius: 10px;
 text-transform: uppercase;
 cursor:pointer;

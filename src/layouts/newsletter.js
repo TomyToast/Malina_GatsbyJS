@@ -117,7 +117,7 @@ class NewsForm extends Component {
 
 const Newsletter = () => (
     <NewsWrapper>
-        <Container column>
+        <Container column min>
             <H2>Zapisz się do naszego newslettera</H2>
             <NewsForm />
         </Container>

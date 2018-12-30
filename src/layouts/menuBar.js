@@ -12,7 +12,6 @@ const MenuBar = styled.div`
     background: white;
     width: 68.75rem;
     height: 4rem;
-    border: 1px solid red;
 
     position: relative;
 `;
