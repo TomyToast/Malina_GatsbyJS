@@ -1,9 +1,7 @@
 import styled from 'styled-components';
 
 const LI = styled.ul`
-display: inline-block;
-font-size: 0.5 rem;
-font-family: serif;
+    display: flex;
 
     &:hover {
         color: ${({ theme }) => theme.colors.raspberry};

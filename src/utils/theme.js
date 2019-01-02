@@ -1,12 +1,9 @@
-import { colors } from './colors'
+import { colors } from './colors';
+import { fonts } from './fonts';
 
 export const theme = {
     colors,
-    font: {
-        thin: 300,
-        regular: 400,
-        bold: 800,
-    },
+    fonts,
     media: {
         tablet: '@media (min-width: 728px)',
         desctop: '@media (min-width: 1024px)',

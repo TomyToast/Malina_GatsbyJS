@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const UL = styled.ul`
 display: flex;
 justify-content: flex-end;
-align-item: center;
+align-items: center;
 
 width: 100%;
 min-heigh: 80px;
