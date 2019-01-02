@@ -1,5 +1,5 @@
 # Malina Layout
-Example layout in gatsbyJS.
+Example layout for testing GatsbyJS.
 To be continued...
 
 ## Technologies
