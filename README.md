@@ -3,5 +3,5 @@ Example layout for testing GatsbyJS.
 To be continued...
 
 ## Technologies
-- ReactJs
 - GatsbyJs
+
