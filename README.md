@@ -4,4 +4,3 @@ To be continued...
 
 ## Technologies
 - GatsbyJs
-

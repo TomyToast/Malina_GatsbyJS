@@ -1,20 +1,30 @@
-# Global settings applied to the whole site.
 [build]
-  command = "hugo"
-  publish = "public"
-
-# Build a preview of the site (Drafts and Future dates also) 
-#   Un-comment next two lines.
-#[context.deploy-preview]
-#  command = "hugo --buildFuture"
+publish = "public"
+command = "hugo --gc --minify"
 
 [context.production.environment]
-  HUGO_VERSION = "0.41"
+HUGO_VERSION = "0.53"
+HUGO_ENV = "production"
+HUGO_ENABLEGITINFO = "true"
 
-# you can lock a version of hugo for a deploy preview
+[context.split1]
+command = "hugo  --gc --minify --enableGitInfo"
+
+[context.split1.environment]
+HUGO_VERSION = "0.53"
+HUGO_ENV = "production"
+
+[context.deploy-preview]
+command = "hugo  --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
+
 [context.deploy-preview.environment]
-  HUGO_VERSION = "0.41"
+HUGO_VERSION = "0.53"
 
-# you can lock a version of hugo for a branch-deploy (other than previews)
+[context.branch-deploy]
+command = "hugo  --gc --minify -b $DEPLOY_PRIME_URL"
+
 [context.branch-deploy.environment]
-  HUGO_VERSION = "0.41"
+HUGO_VERSION = "0.53"
+
+[context.next.environment]
+HUGO_ENABLEGITINFO = "true"

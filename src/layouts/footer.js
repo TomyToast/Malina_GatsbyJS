@@ -10,7 +10,7 @@ const FooterWrapper = styled.div`
     align-items; center;
 
     width: 100%;
-    height: 29rem;
+    height: 50vh;
 
     background: ${({ theme }) => theme.colors.dark};
 `;
@@ -27,7 +27,6 @@ const FooterUL = styled.ul`
 
     list-style-type: none;
     columns: 2;
-    margin-left: -40px;
 `;
 
 const liElements = ['Strona domowa', 'Nasze przepisy', 'Galeria', 'Kontakt', 'Blog', 'Aktualności', 'Polityka cookies']
@@ -35,11 +34,10 @@ const liElements = ['Strona domowa', 'Nasze przepisy', 'Galeria', 'Kontakt', 'Bl
 const LI = styled.li`
     display: flex;
 
-    font-size: 1.15rem;
+    font-size: 0.75rem;
     font-weight: 300;
     font-family: sans-serif;
     color: ${({ theme }) => theme.colors.white};
-    margin-bottom: 15px;
     text-decoration: none;
 `;
 

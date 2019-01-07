@@ -22,7 +22,7 @@ const StyledWrapper = styled.div`
     align-items: center;
 `;
 const Conteiner = styled.div`
-    width: 1600px;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;

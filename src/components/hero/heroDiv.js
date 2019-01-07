@@ -6,8 +6,8 @@ const HeroDiv = styled.div`
     justify-content: center;
     align-item: center;
 
-    width: 100rem;
-    height: 52.5rem;
+    width: 100vw;
+    height: 100vh;
 
     background-image: url(${ heroImg });
     background-repeat: no-repeat;
